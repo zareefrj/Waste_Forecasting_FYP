@@ -55,7 +55,7 @@ def predict(data):
     #show prediction table
     prediction_table = forecast.tail(7) #show the next 7 days
     prediction_table = prediction_table[['ds', 'yhat']] # Keep only the desired columns
-    prediction_table.rename(columns={"ds": "Date", "yhat": "Predicted Value"}, inplace=True)
+    prediction_table.rename(columns={"ds": "Date", "yhat": "Predicted Waste Levels (cm)"}, inplace=True)
     st.dataframe(prediction_table)
     
     #show prediction graph
@@ -80,8 +80,6 @@ def predict(data):
         st.write("The lower the value of the metrics, the better the performance of the prediction model. Mean Absolute Error (MAE): Measures the average absolute difference between the predicted values and the actual values. Mean Squared Error (MSE): Measures the squared average squared difference between the predicted values and the actual values.")
     st.write(f'Mean Absolute Error: {MAE}')
     st.write(f'Root Mean Squared Error: {RMSE}')
-
-    st.balloons()
 
 # Function to get the time series data from thingsboard via GET request
 @st.cache_data
