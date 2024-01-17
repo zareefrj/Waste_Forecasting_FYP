@@ -5,4 +5,4 @@ Thingsboard API: (https://thingsboard.cloud/swagger-ui/#/telemetry-controller/ge
 
 Forecasting Web App: (https://wasteforecast.streamlit.app/)
 
-Presentation Slides & Video Demonstration: (https://drive.google.com/drive/folders/1K_xm3c1ZNZqD11n-34w3gB4f_fm8Bh8M?usp=sharing)
+Presentation Slides, Video Demonstration & APK File for ThingsBoard Mobile: (https://drive.google.com/drive/folders/1K_xm3c1ZNZqD11n-34w3gB4f_fm8Bh8M?usp=sharing)
